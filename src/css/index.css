@@ -1,0 +1,271 @@
+.container{
+  width: 100vw;
+  background: #fff;
+  color:#000;
+  transition: background-color 1s,color 1s;
+}
+
+.container.dark{
+  background: #000;
+  color:#fff;
+}
+
+.homeText {
+  width: 100%;
+  padding: 100px;
+  margin-top:65px;
+  height: 135vw;
+}
+
+
+.homeText h1{
+  font-size: 60px;
+}
+
+.homeText h2{
+  font-size: 40px;
+}
+
+.homeText h3{
+  font-size: 20px;
+}
+
+.skillsTitle {
+  text-align: center; 
+}
+
+.skillsTitle h1{
+  font-size: 60px;
+}
+
+.skillsText {
+  float: right;
+  width: 50%;
+  text-align: left;         
+}
+
+.skillsText h2{
+  font-size:45px;
+  margin-top: -550px;
+}
+
+.skillsText h4{
+  font-size:20px;
+}
+
+.cvButton {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.cvButton:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+
+.container.dark .cvButton {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+
+.container.dark .cvButton:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.socialslogo {
+  width: 55px;
+  height: 55px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.introductionText{
+  margin-left:440px;
+  margin-top: -10px;
+}
+
+.selfportrait{
+  width: 300px;
+  height: 400px;
+  float: right;
+  margin-right:515px;
+  margin-top:-315px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+}
+
+.skillsSectionImage {
+  width: 600px;      
+  height: 550px;
+  margin-left:-800px;
+}
+
+.javalogo{
+  width:39px;
+  height:50px;
+  margin-right: 10px;
+  margin-bottom: 3px; 
+}
+
+.kotlinlogo{
+  width:77px;
+  height: 50px;
+  margin-bottom: -4.5px;
+  margin-right:5px;
+}
+
+.javascriptlogo{
+  width: 40px;
+  height: 40px;
+  margin-right: 27px;
+}
+
+.typescriptlogo{
+  width: 40px;
+  height: 40px;
+  margin-right: 27px;
+}
+
+.clogo{
+  width: 40px;
+  height: 40px;
+  margin-right: 27px;
+}
+
+.pythonlogo{
+  width: 40px;
+  height: 40px;
+  margin-right: 27px;
+  margin-bottom: -2px;
+}
+
+.githublogo{
+  width: 40px;
+  height: 40px;
+  margin-right: 27px;
+}
+
+.sqllogo{
+  width: 85px;
+  height: 40px;
+  margin-right:14px;
+}
+
+.reactlogo{
+  width: 45px;
+  height: 45px;
+  margin-left:3px;
+}
+
+.htmllogo{
+  width: max-content 45px;
+  height: 45px;
+}
+
+.springlogo{
+  width: 100x;
+  height: 80px;
+  margin:-18.5px;
+  margin-left:-15px;
+  margin-top:-17px;
+}
+
+.bootstraplogo{
+  width: 77px;
+  height: 55px;
+  margin-top: -4px;
+  margin-right: 8px;
+  margin-left: -11px;
+}
+
+.postgressqllogo{
+  width: 45px;
+  height: 45px;
+  margin-right: 24px;
+  margin-bottom:-4px;
+}
+
+.csslogo{
+  width: 70px;
+  height: 45px;
+  margin-top:-3px;
+}
+
+.nginxlogo{
+  width: 40px;
+  height: 40px;
+  margin-right: 25px;
+  margin-top: 4px;
+
+}
+
+.postmanlogo{
+  width: 40px;
+  height: 40px;
+  margin-right: 25px;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+.expressjslogo{
+  width: 55px;
+  height: 55px;
+  margin-top: -4px;
+  margin-right: 21px;
+}
+
+.nodejslogo{
+  width: 40px;
+  height: 40px;
+  margin-right:13px;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.webpacklogo{
+  width: 50px;
+  height: 50px;
+  margin-top: -0.4px;
+}
+
+.webDevelopmentText {
+  margin-left: auto;
+  width: 50%;
+  text-align: left;
+  font-size: 20px;
+  transform: translateY(-550px); 
+  margin-top:-8px;
+}
+
+.webDevelopmentTitle{
+  width: 50%;
+  float: right;
+  margin-top: 70px;
+}
+
+.webdevelopmentlogos{
+  display:flex;
+  flex-wrap: wrap;
+  float: right;
+  width: 50%;
+  transform: translateY(-550px); 
+}
+
+.webdevelopmentsectionimage{
+  width:620px;
+  margin-left:50px;
+  margin-bottom:66px;
+}
